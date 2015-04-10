@@ -1,0 +1,5 @@
+{
+  "cacheLibrary": "none",
+  ":cacheLibrary": "./lib/cache/{#cacheLibrary}",
+  ":urlParser": "./lib/urltools"
+}

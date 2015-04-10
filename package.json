@@ -1,0 +1,14 @@
+{
+	"name": "cache-url-interface",
+	"version": "0.0.1",
+	"main": "index.js",
+	"engines": {
+		"node": "0.12.x"
+	},
+	"dependencies": {
+		"redis": "^0.12.1"
+	},
+	"peerDependencies": {
+	    "wires": ">=0.3.1"
+	}
+}
