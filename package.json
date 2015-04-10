@@ -9,6 +9,11 @@
 		"redis": "^0.12.1"
 	},
 	"peerDependencies": {
-	    "wires": ">=0.3.1"
-	}
+		"wires": ">=0.3.1"
+	},
+	"repository": {
+		"type" : "git",
+		"url": "https://github.com/creative-area/cache-url-interface.git"
+	},
+	"license": "MIT"
 }
