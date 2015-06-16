@@ -54,7 +54,8 @@ get: function( url, cb ) {
     cb( error );
   }
 },
-set: function( url, value, cb ) {
+set: function( url, value, ttl, cb ) {
+  // if ( cb === undefined ) { cb = ttl; ttl = false }
   // set cached value for url
   if ( good ) {
     return ( cb ) ? cb( null, result ) : true;
