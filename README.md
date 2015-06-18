@@ -55,8 +55,8 @@ get: function( url, cb ) {
   }
 },
 set: function( url, value, ttl, cb ) {
-  // if ( cb === undefined ) { cb = ttl; ttl = false }
   // set cached value for url
+  // if !ttl, use config.expire.ko or config.expire.ok
   if ( good ) {
     return ( cb ) ? cb( null, result ) : true;
   } else {
