@@ -4,6 +4,7 @@
     "host": "127.0.0.1",
     "options": {},
     "prefix": "",
+	"protocol": false,
     "error": "Bad url",
     "expire": {
       "ok": 60,

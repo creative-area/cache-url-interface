@@ -29,7 +29,8 @@ To use `redis` cache, set `cacheLibrary` config to `redis` and change redis conf
       "port": 6379,
       "host": "127.0.0.1",
       "options": {},
-      "prefix": "cache-url:",
+      "prefix": "",
+      "protocol": false,// false don't cache url protocol. if true, add it
       "error": "Bad url",
       "expire": {
         "ok": 600,
