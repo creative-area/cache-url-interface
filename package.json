@@ -1,12 +1,12 @@
 {
 	"name": "cache-url-interface",
-	"version": "0.0.8",
+	"version": "0.0.9",
 	"main": "index.js",
 	"engines": {
-		"node": "0.12.x"
+		"node": ">=0.12.0"
 	},
 	"dependencies": {
-		"redis": "^0.12.1"
+		"redis": "^2.5.0"
 	},
 	"repository": {
 		"type" : "git",
